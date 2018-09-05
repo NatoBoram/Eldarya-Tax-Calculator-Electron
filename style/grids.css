@@ -1,0 +1,44 @@
+.price-grid {
+	display: grid;
+	grid-template-areas:
+    "header		header		header		header		header		header		header"
+    "maana-name	maana-input	maana-unit	gap			gold-name	gold-input	gold-unit"
+	"m5-name	m5-input	m5-unit		gap			cad-name	cad-input	cad-unit"
+	"p5-name	p5-input	p5-unit		gap			eur-name	eur-input	eur-unit"
+	"empty-l	empty-l		empty-l		empty-l		empty-l		reset		empty-r";
+	text-align: center;
+	grid-column-gap: 10px;
+}
+
+.price-grid > div {
+	text-align: center;
+}
+
+.header {grid-area: header;}
+.gap {grid-area: gap;}
+.maana-name {grid-area: maana-name;}
+.maana-input {grid-area: maana-input;}
+.maana-unit {grid-area: maana-unit;}
+.gold-name {grid-area: gold-name;}
+.gold-input {grid-area: gold-input;}
+.gold-unit {grid-area: gold-unit;}
+.m5-name {grid-area: m5-name;}
+.m5-input {grid-area: m5-input;}
+.m5-unit {grid-area: m5-unit;}
+.cad-name {grid-area: cad-name;}
+.cad-input {grid-area: cad-input;}
+.cad-unit {grid-area: cad-unit;}
+.p5-name {grid-area: p5-name;}
+.p5-input {grid-area: p5-input;}
+.p5-unit {grid-area: p5-unit;}
+.eur-name {grid-area: eur-name;}
+.eur-input {grid-area: eur-input;}
+.eur-unit {grid-area: eur-unit;}
+.empty-l {grid-area: empty-l;}
+.reset {grid-area: reset;}
+.empty-r {grid-area: empty-r;}
+
+.flag {
+	max-width: 18px;
+	max-height: 18px;
+}
