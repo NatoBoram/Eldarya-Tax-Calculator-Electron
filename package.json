@@ -1,0 +1,29 @@
+{
+	"name": "eldarya-tax-calculator-electron",
+	"version": "0.0.1",
+	"description": "Eldarya Tax Calculator",
+	"main": "index.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron.git"
+	},
+	"keywords": [
+		"Eldarya",
+		"Market",
+		"Taxes",
+		"Maanas"
+	],
+	"author": "Nato Boram",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron/issues"
+	},
+	"homepage": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron#readme",
+	"devDependencies": {
+		"electron": "^3.0.0-beta.8"
+	}
+}
