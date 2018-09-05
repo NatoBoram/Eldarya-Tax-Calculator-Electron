@@ -1,0 +1,46 @@
+html {
+	background-image: url("../images/background/popup-topLeft.png"),
+	url("../images/background/popup-topRight.png"),
+	url("../images/background/popup-bottomLeft.png"),
+	url("../images/background/popup-bottomRight.png");
+	background-position: top left, top right, bottom left, bottom right;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Text */
+#maana-name, #maana-unit,
+#gold-name, #gold-unit,
+#m5-name, #m5-unit,
+#cad-name, #cad-unit,
+#p5-name, #p5-unit,
+#eur-name, #eur-unit {
+	font-family: Rubik, cursive;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(52, 56, 111);
+}
+
+button {
+	background-color: #2293fb;
+	border: 2px solid #2293fb;
+	border-radius: 25px;
+	font-family: Rubik, cursive;
+	font-size: 14px;
+	color: #fff;
+	padding: 4px 8px;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 100%;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+	margin: 0 5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+	color: #2293fb;
+}
