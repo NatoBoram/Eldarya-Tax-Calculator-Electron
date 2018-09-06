@@ -1,11 +1,19 @@
 {
-	"name": "eldarya-tax-calculator-electron",
+	"name": "eldarya-tax-calculator",
 	"version": "0.0.1",
 	"description": "Eldarya Tax Calculator",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dist": "build"
+	},
+	"build": {
+		"appId": "com.natoboram.eldarya-tax-calculator",
+		"linux": {
+			"target": [
+				"snap"
+			]
+		}
 	},
 	"repository": {
 		"type": "git",
@@ -24,6 +32,9 @@
 	},
 	"homepage": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron#readme",
 	"devDependencies": {
-		"electron": "^3.0.0-beta.8"
-	}
+		"electron": "^3.0.0-beta.8",
+		"electron-builder": "^20.28.4",
+		"electron-packager": "^12.1.1"
+	},
+	"icon": "images/marketplace.png"
 }
