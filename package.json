@@ -1,6 +1,6 @@
 {
 	"name": "eldarya-tax-calculator",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Electron application that can convert maanas to gold coins, euros, dollars as well as calculate the taxes in the market.",
 	"main": "main.js",
 	"scripts": {
