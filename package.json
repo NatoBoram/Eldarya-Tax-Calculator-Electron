@@ -1,7 +1,7 @@
 {
 	"name": "eldarya-tax-calculator",
 	"version": "0.0.1",
-	"description": "Eldarya Tax Calculator",
+	"description": "Electron application that can convert maanas to gold coins, euros, dollars as well as calculate the taxes in the market.",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
@@ -9,11 +9,22 @@
 	},
 	"build": {
 		"appId": "com.natoboram.eldarya-tax-calculator",
+		"productName": "Eldarya Tax Calculator",
+		"copyright": "Copyright © 2018 Nato Boram",
 		"linux": {
 			"target": [
 				"snap"
-			]
-		}
+			],
+			"icon": "images/icons/256x256.png",
+			"synopsis": "Calculates Eldarya's market taxes.",
+			"category": "Utility"
+		},
+		"snap": {
+			"confinement": "strict",
+			"summary": "Calculates Eldarya's market taxes."
+		},
+		"asar": true,
+		"compression": "maximum"
 	},
 	"repository": {
 		"type": "git",
@@ -23,14 +34,15 @@
 		"Eldarya",
 		"Market",
 		"Taxes",
-		"Maanas"
+		"Maanas",
+		"Electron"
 	],
 	"author": "Nato Boram",
 	"license": "GPL-3.0",
 	"bugs": {
 		"url": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron/issues"
 	},
-	"homepage": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron#readme",
+	"homepage": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron",
 	"devDependencies": {
 		"electron": "^3.0.0-beta.8",
 		"electron-builder": "^20.28.4",
