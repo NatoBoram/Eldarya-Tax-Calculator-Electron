@@ -34,13 +34,25 @@ button {
 	color: #fff;
 	padding: 4px 8px;
 	cursor: pointer;
-	display: inline-block;
 	line-height: 100%;
 	transition: background-color 0.3s ease-in, color 0.3s ease-in;
-	margin: 0 5px;
+	min-width: 61.803398875%;
 }
 
 button:hover {
     background-color: #ffffff;
 	color: #2293fb;
+}
+
+input {
+	font-size: 14px;
+	font-family: Rubik, cursive;
+	line-height: 1.5;
+	min-width: 61.803398875%;
+	background-color: #f6f6f6;
+	outline: none;
+	height: 22px;
+	border: 1px solid #aaa;
+	border-radius: 7px;
+	text-align: center;
 }

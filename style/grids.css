@@ -16,11 +16,9 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-}
 
-body > div {
-	text-align: center;
-	vertical-align: middle;
+	/* Center everything in its grid */ 
+	align-items: center;
 }
 
 #header {grid-area: header;}
