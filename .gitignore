@@ -2,6 +2,7 @@
 
 builds/
 dist/
+*.pfx
 
 # Created by https://www.gitignore.io/api/node,linux,macos,windows,visualstudiocode
 
