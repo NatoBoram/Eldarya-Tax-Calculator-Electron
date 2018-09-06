@@ -1,6 +1,7 @@
 "use scrict";
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
+const phi = (1 + Math.sqrt(5)) / 2;
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -17,8 +18,8 @@ function createWindow() {
 		width: 600,
 		height: 400,
 
-		//maxWidth: 700,
-		//maxHeight: 500,
+		maxWidth: 1000,
+		maxHeight: 600,
 
 		icon: path.join(__dirname, 'images/marketplace.png')
 	})
