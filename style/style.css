@@ -1,8 +1,8 @@
 html {
 	background-image: url("../images/background/popup-topLeft.png"),
-	url("../images/background/popup-topRight.png"),
-	url("../images/background/popup-bottomLeft.png"),
-	url("../images/background/popup-bottomRight.png");
+		url("../images/background/popup-topRight.png"),
+		url("../images/background/popup-bottomLeft.png"),
+		url("../images/background/popup-bottomRight.png");
 	background-position: top left, top right, bottom left, bottom right;
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #ffffff;
+	background-color: #ffffff;
 	color: #2293fb;
 }
 

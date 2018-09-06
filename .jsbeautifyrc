@@ -1,0 +1,5 @@
+{
+	"indent_with_tabs": true,
+	"selector_separator_newline": false,
+	"space_around_combinator": true
+}
