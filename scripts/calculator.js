@@ -184,8 +184,7 @@ const etce = {
 
 			// Currencies
 			etce.input.set("eur-input", Math.round(eur));
-			etce.input.set("cad-input", Math.round(gtoc(gold)));
+			etce.input.set("cad-input", Math.round(etce.calculator.gtoc(gold)));
 		},
 	},
-
 };
