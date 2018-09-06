@@ -1,0 +1,6 @@
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+}
