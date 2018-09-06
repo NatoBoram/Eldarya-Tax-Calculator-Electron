@@ -5,11 +5,11 @@ html {
 body {
 	display: grid;
 	grid-template-areas:
-    "header		header		header		header		header		header		header"
-    "maana-name	maana-input	maana-unit	gap			gold-name	gold-input	gold-unit"
-	"m5-name	m5-input	m5-unit		gap			cad-name	cad-input	cad-unit"
-	"p5-name	p5-input	p5-unit		gap			eur-name	eur-input	eur-unit"
-	"empty-l	empty-l		empty-l		empty-l		empty-l		reset		empty-r";
+    "header	header		header		header		header	header		header		header		header"
+    ".		maana-name	maana-input	maana-unit	.		gold-name	gold-input	gold-unit	."
+	".		m5-name		m5-input	m5-unit		.		cad-name	cad-input	cad-unit	."
+	".		p5-name		p5-input	p5-unit		.		eur-name	eur-input	eur-unit	."
+	".		s-name		s-input		s-unit		.		.			reset		.			.";
 	text-align: center;
 	
 	/* Take 100% of screen */
@@ -41,9 +41,10 @@ body {
 #eur-name {grid-area: eur-name;}
 #eur-input {grid-area: eur-input;}
 #eur-unit {grid-area: eur-unit;}
-#empty-l {grid-area: empty-l;}
+#s-name {grid-area: s-name; visibility: hidden;}
+#s-input {grid-area: s-input; visibility: hidden;}
+#s-unit {grid-area: s-unit; visibility: hidden;}
 #reset {grid-area: reset;}
-#empty-r {grid-area: empty-r;}
 
 .flag {
 	max-width: 18px;

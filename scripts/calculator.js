@@ -91,6 +91,10 @@ const etce = {
 
 		gtoc: function(gold) {
 			return gold * 5 / 165;
+		},
+
+		d4m5: function(maana) {
+			return maana * 100 / (105 * 4)
 		}
 	},
 
