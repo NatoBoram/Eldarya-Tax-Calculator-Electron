@@ -11,7 +11,7 @@ const etce = {
 		 * @returns {number} The new value.
 		 */
 		set: function(name, value) {
-			return document.getElementById(name).getElementsByTagName("input")[0].value = value;
+			return (document.getElementById(name).getElementsByTagName("input")[0].value = value);
 		},
 
 		/**
@@ -94,7 +94,7 @@ const etce = {
 		},
 
 		d4m5: function(maana) {
-			return maana * 100 / (105 * 4)
+			return maana * 100 / (105 * 4);
 		}
 	},
 
