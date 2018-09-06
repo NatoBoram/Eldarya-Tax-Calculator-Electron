@@ -15,15 +15,15 @@
 			"target": [
 				"appx"
 			],
-			"icon": "images/marketplace.png",
+			"icon": "images/icons/256x256.png",
 			"signingHashAlgorithms": [
 				"sha256"
 			]
 		},
 		"appx": {
-			"applicationId": "eldarya-tax-calculator-electron",
+			"applicationId": "EldaryaTaxCalculatorElectron",
 			"displayName": "Eldarya Tax Calculator",
-			"publisher": "Nato Boram",
+			"publisherDisplayName": "NatoBoram",
 			"languages": [
 				"EN-CA",
 				"FR-CA",
