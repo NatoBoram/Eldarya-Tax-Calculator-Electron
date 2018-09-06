@@ -11,6 +11,25 @@
 		"appId": "com.natoboram.eldarya-tax-calculator",
 		"productName": "Eldarya Tax Calculator",
 		"copyright": "Copyright © 2018 Nato Boram",
+		"win": {
+			"target": [
+				"appx"
+			],
+			"icon": "images/marketplace.png",
+			"signingHashAlgorithms": [
+				"sha256"
+			]
+		},
+		"appx": {
+			"applicationId": "eldarya-tax-calculator-electron",
+			"displayName": "Eldarya Tax Calculator",
+			"publisher": "Nato Boram",
+			"languages": [
+				"EN-CA",
+				"FR-CA",
+				"FR-FR"
+			]
+		},
 		"linux": {
 			"target": [
 				"snap"
