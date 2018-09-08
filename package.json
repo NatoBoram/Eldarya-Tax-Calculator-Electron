@@ -18,11 +18,14 @@
 			"icon": "images/icons/256x256.png",
 			"signingHashAlgorithms": [
 				"sha256"
-			]
+			],
+			"certificateFile": "CN=3B049162-524F-441C-B5CD-B03EB0B51AAE.pfx"
 		},
 		"appx": {
 			"applicationId": "EldaryaTaxCalculatorElectron",
 			"displayName": "Eldarya Tax Calculator",
+			"identityName": "24626NatoBoram.EldaryaTaxCalculator",
+			"publisher": "CN=3B049162-524F-441C-B5CD-B03EB0B51AAE",
 			"publisherDisplayName": "NatoBoram",
 			"languages": [
 				"EN-CA",
