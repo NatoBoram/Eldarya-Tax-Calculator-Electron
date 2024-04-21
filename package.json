@@ -67,7 +67,7 @@
 	"homepage": "https://gitlab.com/NatoBoram/Eldarya-Tax-Calculator-Electron",
 	"devDependencies": {
 		"electron": "^3.0.0-beta.8",
-		"electron-builder": "^20.28.4",
+		"electron-builder": "^24.13.3",
 		"electron-packager": "^12.1.1"
 	},
 	"icon": "images/marketplace.png"
